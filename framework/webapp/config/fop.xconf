@@ -99,6 +99,10 @@ the location of this file.
           <auto-detect/>
           <directory>framework/resources/fonts/NotoSans</directory>
           <auto-embed/>
+          <font embed-url="NotoSansTC-Bold.ttf" kerning="yes">
+            <font-triplet name="NotoSansTC-Bold" style="normal" weight="bold"/>
+          </font>
+
       </fonts>
 
       <!-- This option lets you specify additional options on an XML handler -->
