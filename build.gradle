@@ -199,7 +199,7 @@ dependencies {
         runtimeOnly project(path: subProject.path, configuration: 'pluginLibsRuntime')
         compileOnly project(path: subProject.path, configuration: 'pluginLibsCompileOnly')
     }
-
+    implementation 'org.postgresql:postgresql:42.2.8'
     junitReport 'junit:junit:4.13.2'
     junitReport 'org.apache.ant:ant-junit:1.10.14'
 
